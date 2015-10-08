@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB35BB381BC5F00A00C382C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB35BB371BC5F00A00C382C9 /* main.m */; };
+		AB35BB3B1BC5F00A00C382C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB35BB3A1BC5F00A00C382C9 /* AppDelegate.m */; };
+		AB35BB3E1BC5F00A00C382C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB35BB3D1BC5F00A00C382C9 /* ViewController.m */; };
+		AB35BB411BC5F00A00C382C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB35BB3F1BC5F00A00C382C9 /* Main.storyboard */; };
+		AB35BB441BC5F00A00C382C9 /* Hustpass.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB35BB421BC5F00A00C382C9 /* Hustpass.xcdatamodeld */; };
+		AB35BB461BC5F00A00C382C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB35BB451BC5F00A00C382C9 /* Assets.xcassets */; };
+		AB35BB491BC5F00A00C382C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB35BB471BC5F00A00C382C9 /* LaunchScreen.storyboard */; };
+		AB35BB541BC5F00A00C382C9 /* HustpassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB35BB531BC5F00A00C382C9 /* HustpassTests.m */; };
+		AB35BB5F1BC5F00A00C382C9 /* HustpassUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB35BB5E1BC5F00A00C382C9 /* HustpassUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB35BB501BC5F00A00C382C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB35BB2B1BC5F00900C382C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB35BB321BC5F00A00C382C9;
+			remoteInfo = Hustpass;
+		};
+		AB35BB5B1BC5F00A00C382C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB35BB2B1BC5F00900C382C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB35BB321BC5F00A00C382C9;
+			remoteInfo = Hustpass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB35BB331BC5F00A00C382C9 /* Hustpass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hustpass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB35BB371BC5F00A00C382C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB35BB391BC5F00A00C382C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB35BB3A1BC5F00A00C382C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB35BB3C1BC5F00A00C382C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB35BB3D1BC5F00A00C382C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB35BB401BC5F00A00C382C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB35BB431BC5F00A00C382C9 /* Hustpass.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hustpass.xcdatamodel; sourceTree = "<group>"; };
+		AB35BB451BC5F00A00C382C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB35BB481BC5F00A00C382C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB35BB4A1BC5F00A00C382C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB35BB4F1BC5F00A00C382C9 /* HustpassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HustpassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB35BB531BC5F00A00C382C9 /* HustpassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HustpassTests.m; sourceTree = "<group>"; };
+		AB35BB551BC5F00A00C382C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB35BB5A1BC5F00A00C382C9 /* HustpassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HustpassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB35BB5E1BC5F00A00C382C9 /* HustpassUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HustpassUITests.m; sourceTree = "<group>"; };
+		AB35BB601BC5F00A00C382C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB35BB301BC5F00A00C382C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB35BB4C1BC5F00A00C382C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB35BB571BC5F00A00C382C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB35BB2A1BC5F00900C382C9 = {
+			isa = PBXGroup;
+			children = (
+				AB35BB351BC5F00A00C382C9 /* Hustpass */,
+				AB35BB521BC5F00A00C382C9 /* HustpassTests */,
+				AB35BB5D1BC5F00A00C382C9 /* HustpassUITests */,
+				AB35BB341BC5F00A00C382C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB35BB341BC5F00A00C382C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB35BB331BC5F00A00C382C9 /* Hustpass.app */,
+				AB35BB4F1BC5F00A00C382C9 /* HustpassTests.xctest */,
+				AB35BB5A1BC5F00A00C382C9 /* HustpassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB35BB351BC5F00A00C382C9 /* Hustpass */ = {
+			isa = PBXGroup;
+			children = (
+				AB35BB391BC5F00A00C382C9 /* AppDelegate.h */,
+				AB35BB3A1BC5F00A00C382C9 /* AppDelegate.m */,
+				AB35BB3C1BC5F00A00C382C9 /* ViewController.h */,
+				AB35BB3D1BC5F00A00C382C9 /* ViewController.m */,
+				AB35BB3F1BC5F00A00C382C9 /* Main.storyboard */,
+				AB35BB451BC5F00A00C382C9 /* Assets.xcassets */,
+				AB35BB471BC5F00A00C382C9 /* LaunchScreen.storyboard */,
+				AB35BB4A1BC5F00A00C382C9 /* Info.plist */,
+				AB35BB421BC5F00A00C382C9 /* Hustpass.xcdatamodeld */,
+				AB35BB361BC5F00A00C382C9 /* Supporting Files */,
+			);
+			path = Hustpass;
+			sourceTree = "<group>";
+		};
+		AB35BB361BC5F00A00C382C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB35BB371BC5F00A00C382C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB35BB521BC5F00A00C382C9 /* HustpassTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB35BB531BC5F00A00C382C9 /* HustpassTests.m */,
+				AB35BB551BC5F00A00C382C9 /* Info.plist */,
+			);
+			path = HustpassTests;
+			sourceTree = "<group>";
+		};
+		AB35BB5D1BC5F00A00C382C9 /* HustpassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB35BB5E1BC5F00A00C382C9 /* HustpassUITests.m */,
+				AB35BB601BC5F00A00C382C9 /* Info.plist */,
+			);
+			path = HustpassUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB35BB321BC5F00A00C382C9 /* Hustpass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB35BB631BC5F00A00C382C9 /* Build configuration list for PBXNativeTarget "Hustpass" */;
+			buildPhases = (
+				AB35BB2F1BC5F00A00C382C9 /* Sources */,
+				AB35BB301BC5F00A00C382C9 /* Frameworks */,
+				AB35BB311BC5F00A00C382C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hustpass;
+			productName = Hustpass;
+			productReference = AB35BB331BC5F00A00C382C9 /* Hustpass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB35BB4E1BC5F00A00C382C9 /* HustpassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB35BB661BC5F00A00C382C9 /* Build configuration list for PBXNativeTarget "HustpassTests" */;
+			buildPhases = (
+				AB35BB4B1BC5F00A00C382C9 /* Sources */,
+				AB35BB4C1BC5F00A00C382C9 /* Frameworks */,
+				AB35BB4D1BC5F00A00C382C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB35BB511BC5F00A00C382C9 /* PBXTargetDependency */,
+			);
+			name = HustpassTests;
+			productName = HustpassTests;
+			productReference = AB35BB4F1BC5F00A00C382C9 /* HustpassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB35BB591BC5F00A00C382C9 /* HustpassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB35BB691BC5F00A00C382C9 /* Build configuration list for PBXNativeTarget "HustpassUITests" */;
+			buildPhases = (
+				AB35BB561BC5F00A00C382C9 /* Sources */,
+				AB35BB571BC5F00A00C382C9 /* Frameworks */,
+				AB35BB581BC5F00A00C382C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB35BB5C1BC5F00A00C382C9 /* PBXTargetDependency */,
+			);
+			name = HustpassUITests;
+			productName = HustpassUITests;
+			productReference = AB35BB5A1BC5F00A00C382C9 /* HustpassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB35BB2B1BC5F00900C382C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = zwenqiang;
+				TargetAttributes = {
+					AB35BB321BC5F00A00C382C9 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					AB35BB4E1BC5F00A00C382C9 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = AB35BB321BC5F00A00C382C9;
+					};
+					AB35BB591BC5F00A00C382C9 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = AB35BB321BC5F00A00C382C9;
+					};
+				};
+			};
+			buildConfigurationList = AB35BB2E1BC5F00900C382C9 /* Build configuration list for PBXProject "Hustpass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB35BB2A1BC5F00900C382C9;
+			productRefGroup = AB35BB341BC5F00A00C382C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB35BB321BC5F00A00C382C9 /* Hustpass */,
+				AB35BB4E1BC5F00A00C382C9 /* HustpassTests */,
+				AB35BB591BC5F00A00C382C9 /* HustpassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB35BB311BC5F00A00C382C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB35BB491BC5F00A00C382C9 /* LaunchScreen.storyboard in Resources */,
+				AB35BB461BC5F00A00C382C9 /* Assets.xcassets in Resources */,
+				AB35BB411BC5F00A00C382C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB35BB4D1BC5F00A00C382C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB35BB581BC5F00A00C382C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB35BB2F1BC5F00A00C382C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB35BB441BC5F00A00C382C9 /* Hustpass.xcdatamodeld in Sources */,
+				AB35BB3E1BC5F00A00C382C9 /* ViewController.m in Sources */,
+				AB35BB3B1BC5F00A00C382C9 /* AppDelegate.m in Sources */,
+				AB35BB381BC5F00A00C382C9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB35BB4B1BC5F00A00C382C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB35BB541BC5F00A00C382C9 /* HustpassTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB35BB561BC5F00A00C382C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB35BB5F1BC5F00A00C382C9 /* HustpassUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB35BB511BC5F00A00C382C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB35BB321BC5F00A00C382C9 /* Hustpass */;
+			targetProxy = AB35BB501BC5F00A00C382C9 /* PBXContainerItemProxy */;
+		};
+		AB35BB5C1BC5F00A00C382C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB35BB321BC5F00A00C382C9 /* Hustpass */;
+			targetProxy = AB35BB5B1BC5F00A00C382C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB35BB3F1BC5F00A00C382C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB35BB401BC5F00A00C382C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB35BB471BC5F00A00C382C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB35BB481BC5F00A00C382C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB35BB611BC5F00A00C382C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB35BB621BC5F00A00C382C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB35BB641BC5F00A00C382C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hustpass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bingyan.Hustpass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB35BB651BC5F00A00C382C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hustpass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bingyan.Hustpass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB35BB671BC5F00A00C382C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HustpassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bingyan.HustpassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hustpass.app/Hustpass";
+			};
+			name = Debug;
+		};
+		AB35BB681BC5F00A00C382C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HustpassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bingyan.HustpassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hustpass.app/Hustpass";
+			};
+			name = Release;
+		};
+		AB35BB6A1BC5F00A00C382C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HustpassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bingyan.HustpassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Hustpass;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AB35BB6B1BC5F00A00C382C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HustpassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bingyan.HustpassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Hustpass;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB35BB2E1BC5F00900C382C9 /* Build configuration list for PBXProject "Hustpass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB35BB611BC5F00A00C382C9 /* Debug */,
+				AB35BB621BC5F00A00C382C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB35BB631BC5F00A00C382C9 /* Build configuration list for PBXNativeTarget "Hustpass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB35BB641BC5F00A00C382C9 /* Debug */,
+				AB35BB651BC5F00A00C382C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB35BB661BC5F00A00C382C9 /* Build configuration list for PBXNativeTarget "HustpassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB35BB671BC5F00A00C382C9 /* Debug */,
+				AB35BB681BC5F00A00C382C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB35BB691BC5F00A00C382C9 /* Build configuration list for PBXNativeTarget "HustpassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB35BB6A1BC5F00A00C382C9 /* Debug */,
+				AB35BB6B1BC5F00A00C382C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB35BB421BC5F00A00C382C9 /* Hustpass.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB35BB431BC5F00A00C382C9 /* Hustpass.xcdatamodel */,
+			);
+			currentVersion = AB35BB431BC5F00A00C382C9 /* Hustpass.xcdatamodel */;
+			path = Hustpass.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AB35BB2B1BC5F00900C382C9 /* Project object */;
+}
