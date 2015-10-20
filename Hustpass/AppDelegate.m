@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +15,23 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    ViewController *rootViewController = [[ViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    //设定bar全局颜色
+    [UINavigationBar appearance].barTintColor = [UIColor colorWithRed:0.0f green:205/255.0f blue:144/255.0f alpha:1.0f];
+    
+    [UINavigationBar appearance].tintColor = [UIColor whiteColor];
+    
+    self.window.rootViewController = nav;
+    [self.window addSubview:nav.view];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
